@@ -179,5 +179,11 @@
    padding: auto;
     
   }
+  .social-icons a {
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    color: white;
+    width: 28px;
+  }
     
   }
