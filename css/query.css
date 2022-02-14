@@ -106,8 +106,12 @@
 
 @media screen and (max-width: 750px) {
   .blogs-last {
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     max-width: 95%;
+  }
+  .blogs{
+    margin: 15px;
   }
 }
 
@@ -149,12 +153,12 @@
     justify-content: center;
     text-align: center;
     padding: 5px;
-    width: 85%;
+    width: 100%;
   }
   .blogs-last {
-    padding: 20px;
-    margin-left: 30px;
-    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    max-width: 95%;
   }
   .last-notice{
     width: 100%;
