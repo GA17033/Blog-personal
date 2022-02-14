@@ -3,86 +3,82 @@
   Roboto Mono 400 500 700
 */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap");
 
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-font-family: 'EB Garamond', serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
 }
 
-
-.home-body{
-  font-family: 'EB Garamond', serif;
+.home-body {
+  font-family: "EB Garamond", serif;
   font-size: 400;
-  position:absolute;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-.header{
+.header {
   width: 100%;
 }
-.social{
+.social {
   background-color: rgb(212, 31, 31);
   height: 50px;
   display: flex;
   justify-content: right;
 }
 
-.social-icons{
-margin: 10px;
+.social-icons {
+  margin: 10px;
 }
 
-.social-icons a{
+.social-icons a {
   display: inline-block;
   margin: 10px 25px 10px 25px;
   color: white;
   width: 28px;
 }
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
-.nav a{
+.nav a {
   display: inline-block;
   margin: 10px 35px 10px 25px;
 }
 
-.nav-link a{
+.nav-link a {
   margin: 25px 25px 0px 50px;
   color: black;
   font-weight: bold;
 }
 
-.home-main{
+.home-main {
   height: 100%;
   width: 100%;
-  background-image: url('../img/cover.png');
+  background-image: url("../img/cover.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
-
 }
-.main-container{
+.main-container {
   width: 100%;
   text-align: center;
   padding: 150px;
 }
-.main-container-text{
+.main-container-text {
   font-size: 50px;
   color: white;
   letter-spacing: 5px;
   word-spacing: 8px;
   font-weight: 500px;
-
 }
-.main-link{
+.main-link {
   display: inline-block;
   margin: 90px;
   background-color: red;
@@ -93,48 +89,45 @@ margin: 10px;
   text-decoration: none;
   font-size: 30px;
 }
-.main-link:hover{
+.main-link:hover {
   background-color: white;
   color: black;
   border: red solid 5px;
   border-radius: 1px;
-
 }
 
-.last-notice{
+.last-notice {
   background-color: rgb(216, 212, 206);
   display: flex;
   justify-content: center;
-
 }
-.notice{
-  margin: 0px 65px 25px 65px ;
+.notice {
+  margin: 0px 65px 25px 65px;
 }
-.blog-img{
+.blog-img {
   width: 100%;
 }
-.blog{
+.blog {
   margin: 45px;
   width: 50%;
 }
-.title-notice{
+.title-notice {
   margin: 10px;
 }
-.notice-img{
-    width: 100%;
-    margin-right: 30px; 
-
+.notice-img {
+  width: 100%;
+  margin-right: 30px;
 }
-.notice-title{
+.notice-title {
   margin: 50px;
 }
 
-.notice-descripcion{
+.notice-descripcion {
   margin: 50px;
   letter-spacing: 5px;
 }
 
-.more{
+.more {
   margin: 50px;
   padding: 20px;
   display: inline-block;
@@ -144,20 +137,19 @@ margin: 10px;
   text-decoration: none;
   color: black;
 }
-.more:hover{
+.more:hover {
   background-color: red;
   color: white;
   cursor: pointer;
 }
-.last-blog-title{
+.last-blog-title {
   margin: 5px 5px 5px 15px;
   padding: 15px;
-
 }
-.blogs{
+.blogs {
   margin: 35px;
 }
-.blogs-last{
+.blogs-last {
   margin: 15px;
   display: inline-block;
   padding: 10px;
@@ -167,25 +159,24 @@ margin: 10px;
   border-radius: 15px;
 }
 
-.blogs-last img{
+.blogs-last img {
   width: 100%;
   border: 1px black solid;
   border-radius: 10px;
-
 }
 
-.blog-title{
+.blog-title {
   margin: 15px 0px 15px 0px;
   word-spacing: 5px;
   font-weight: bold;
 }
-.blog-descripcion{
+.blog-descripcion {
   word-spacing: 8px;
   font-size: 22px;
   margin: 8px;
 }
 
-.more-blog{
+.more-blog {
   margin: 15px 0px 15px 0px;
   display: inline-block;
   border: red 1px solid;
@@ -195,17 +186,17 @@ margin: 10px;
   color: black;
 }
 
-.more-blog:hover{
+.more-blog:hover {
   cursor: pointer;
   background-color: red;
   color: white;
 }
-.part-1{
+.part-1 {
   background-color: red;
   width: 100%;
   height: 45px;
 }
-.part-2{
+.part-2 {
   background-color: black;
   text-align: center;
   font-size: 19px;
@@ -215,79 +206,76 @@ margin: 10px;
   height: 45px;
   line-height: 45px;
 }
-.blog-img img{
+.blog-img img {
   width: 100%;
   text-align: center;
   padding: 25px;
 }
-.notice{
+.notice {
   border-bottom: 0.5px solid black;
   padding: 15px 0 15px 20px;
 }
 
-.blog-select-1{
+.blog-select-1 {
   margin: 15px;
-  
 }
-.title-blog{
+.title-blog {
   margin: 20px 20px 20px 60px;
 }
-.blog-description{
+.blog-description {
   margin: 20px 20px 20px 60px;
   font-size: 21px;
   word-spacing: 8px;
   font-weight: 500;
 }
-.write{
+.write {
   margin: 20px 0px 20px 20px;
 }
-.contact{
+.contact {
   display: flex;
   justify-content: space-between;
   background-color: rgb(214, 209, 205);
   width: 100%;
   height: 180px;
   padding: 0px 0px 40px 40px;
-  
-
 }
-.img-contact{
+.img-contact {
   width: 10%;
 }
-.contact-me{
+.contact-me {
   color: black;
   text-decoration: none;
   border-bottom: 1px black solid;
 }
-.contact-description{
+.contact-description {
   margin: 10px 0px 30px 60px;
   width: 50%;
 }
 
-.profile{
+.profile {
   background-color: rgb(216, 212, 206);
   display: flex;
   justify-content: start;
   padding: 80px 50px 80px 50px;
 }
-.profile-img{
-    width: 50%;
-    margin:auto 0px; 
+.profile-img {
+  width: 50%;
+  margin: auto 0px;
 }
-.profile-2{
+.profile-2 {
   margin: 25px;
 }
-.profile-title{
+.profile-title {
   word-spacing: 10px;
   font-size: 30px;
   padding: 25px;
 }
-.profile-descripcion{
+.profile-descripcion {
   word-spacing: 10px;
   font-size: 20px;
   padding: 25px;
 }
-.proyects-made{
+.proyects-made {
   margin: 15px;
   display: inline-block;
   padding: 10px;
@@ -297,24 +285,23 @@ margin: 10px;
   border-radius: 15px;
 }
 
-.proyect-title{
+.proyect-title {
   width: 80%;
   text-align: center;
   text-transform: uppercase;
   padding: 25px;
-  margin-left: 90px;
+  margin: auto;
   border-bottom: solid black 0.5px;
 }
-.title-proyect-made{
+.title-proyect-made {
   margin: 25px;
   text-align: center;
 }
-.description-proyect{
+.description-proyect {
   font-size: 20px;
   word-spacing: 10px;
   margin-top: 25px;
-
 }
-.proyect-img{
+.proyect-img {
   width: 95%;
 }
