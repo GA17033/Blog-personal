@@ -16,7 +16,7 @@ font-family: 'EB Garamond', serif;
 .home-body{
   font-family: 'EB Garamond', serif;
   font-size: 400;
-  position: fixed;
+  position:absolute;
   top: 0;
   bottom: 0;
   left: 0;
