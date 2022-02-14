@@ -1,0 +1,147 @@
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 1445px) {
+  .blogs-last {
+    margin-left: 15px;
+    padding: 10px;
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .blogs-last {
+    padding: 20px;
+    max-width: 45%;
+  }
+  .notice{
+    margin: 5px 25px 5px 25px ;
+  }
+  .blog{
+    margin: 25px;
+    padding: 15px;
+    width: 50%;
+  }
+  .notice-descripcion , .notice-title{
+    margin: 10px;
+    letter-spacing: 5px;
+  }
+  .more{
+    display: inline-block;
+    margin: 10px;
+    letter-spacing: 5px;
+    padding: 20px ;
+    width: 70%;
+  }
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .notice-img{
+    width: 60%;
+    margin-right: 0px; 
+    
+}
+.profile{
+  background-color: rgb(216, 212, 206);
+  display: flex;
+  justify-content: start;
+  padding: 50px 20px 50px 20px;
+}
+
+.notice{
+  margin: 0px 0px 25px 35px ;
+  width: 50%;
+}
+.proyect{
+  margin: auto;
+  width: 95%;
+}
+.proyects-made{
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+  padding: 10px 15px 10px 15px;
+  width: 45%;
+}
+}
+
+@media screen and (max-width: 880px) {
+  .notice{
+    margin: 0px 35px 25px 35px ;
+    width: 90%;
+  }
+  .last-notice {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    
+  }
+  .blog{
+    margin: 5px 30PX 5px 30px;
+    padding: 10px;
+    width: 90%;
+  }
+  .more{
+    display: inline-block;
+    margin: 10px;
+    letter-spacing: 5px;
+    padding: 20px ;
+    width: 40%;
+  }
+  .body-blogs{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+}
+@media screen and (max-width: 750px) {
+  .blogs-last {
+    padding: 20px;
+    margin-left: 30px;
+    max-width: 90%;
+  }
+ 
+ 
+  
+}
+
+
+@media screen and (max-width: 680px) {
+ 
+.profile{
+  background-color: rgb(216, 212, 206);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 20px 50px 20px;
+}
+.profile-img{
+  width: 90%;
+  margin:25px 25px 25px 25px; 
+  padding: auto;
+}
+
+.proyect{
+  margin: auto;
+  width: 95%;
+}
+.proyects-made{
+  display: inline-block;
+  margin: 20px 15px 20px 15px;
+  padding: 20px 15px 20px 15px;
+  width: 95%;
+}
+ 
+  
+ 
+  
+}
