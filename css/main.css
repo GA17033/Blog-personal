@@ -258,24 +258,30 @@
   background-color: rgb(216, 212, 206);
   display: flex;
   justify-content: start;
-  padding: 80px 50px 80px 50px;
+  
+  
 }
 .profile-img {
   width: 50%;
-  margin: auto 0px;
+  margin: 50px;
+  height: 650px;
 }
 .profile-2 {
   margin: 25px;
+  
 }
 .profile-title {
   word-spacing: 10px;
-  font-size: 30px;
-  padding: 25px;
+  font-size: 40px;
+  padding: 30px;
+  margin: 50px 50px 0px 50px;
 }
 .profile-descripcion {
+  
   word-spacing: 10px;
-  font-size: 20px;
-  padding: 25px;
+  font-size: 30px;
+  padding: 30px;
+  margin: 50px 50px 0px 50px;
 }
 .proyects-made {
   margin: 15px;
