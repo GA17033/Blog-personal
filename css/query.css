@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 980px) {
   .notice-img{
-    width: 60%;
+    width: 90%;
     margin-right: 0px; 
     
 }
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 880px) {
   .notice{
-    margin: 0px 35px 25px 35px ;
+    margin: 0px 5px 25px 5px ;
     width: 90%;
   }
   .last-notice {
